@@ -1,0 +1,35 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        2d6aa7cb com.android.nik.timeline/.MainActivity filter 14fc6960
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Key Set Manager:
+  [com.android.nik.timeline]
+      Signing KeySets: 5
+
+Packages:
+  Package [com.android.nik.timeline] (278b7ba8):
+    userId=10053 gids=[3003]
+    pkg=Package{220106c1 com.android.nik.timeline}
+    codePath=/data/app/com.android.nik.timeline-1
+    resourcePath=/data/app/com.android.nik.timeline-1
+    legacyNativeLibraryDir=/data/app/com.android.nik.timeline-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 targetSdk=16
+    versionName=1.0
+    applicationInfo=ApplicationInfo{4c4de66 com.android.nik.timeline}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/data/com.android.nik.timeline
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2015-06-18 02:45:03
+    firstInstallTime=2015-06-18 02:45:03
+    lastUpdateTime=2015-06-18 02:45:03
+    signatures=PackageSignatures{2c79f5a7 [3ef0aa54]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+    grantedPermissions:
+      android.permission.INTERNET

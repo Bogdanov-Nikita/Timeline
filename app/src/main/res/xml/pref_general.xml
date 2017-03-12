@@ -1,0 +1,38 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_category_gui">
+    <ListPreference
+        android:title="@string/pref_windows_title"
+        android:summary="@string/pref_windows_summary"
+        android:key="WINDOWS"
+        android:defaultValue="2"
+        android:entries="@array/pref_windows_entries"
+        android:entryValues="@array/pref_windows_entries_value" />
+
+        <ListPreference
+            android:title="@string/pref_search_title"
+            android:summary="@string/pref_search_summary"
+            android:key="SEARCH"
+            android:defaultValue="1"
+            android:entries="@array/pref_search_entries"
+            android:entryValues="@array/pref_search_entries_value" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_sync">
+    <CheckBoxPreference
+        android:key="SYNCHRONIZE"
+        android:defaultValue="false"
+        android:title="@string/pref_sync_title"
+        android:summary="@string/pref_sync_summary"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
+    <!-- remember
+    CheckBoxPreference - boolean
+    ListPreference - String
+    EditTextPreference - String
+    RingtonePreference - String
+    -->

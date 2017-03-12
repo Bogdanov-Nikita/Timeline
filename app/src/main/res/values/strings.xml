@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--progress bar-->
+    <string name="loading">loading</string>
+    <!--color names-->
+    <string-array name="color_spinner_popup">
+        <item>White</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep Purple</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Light Blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Light Green</item>
+        <item>Lime</item>
+        <item>Yellow</item>
+        <item>Amber</item>
+        <item>Orange</item>
+        <item>Deep Orange</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Blue Grey</item>
+    </string-array>
+
+    <!-- settings pref -->
+    <string name="pref_category_sync">Synchronize</string>
+    <string name="pref_category_gui">Interface</string>
+
+    <string name="pref_sync_title">Synchronize with Chronozoom</string>
+    <string name="pref_sync_summary">Use information for search from Chronozoom</string>
+
+    <string name="pref_windows_title">Number of windows</string>
+    <string name="pref_windows_summary">Number of windows you can use</string>
+    <string-array name="pref_windows_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_windows_entries_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pref_search_title">Start page</string>
+    <string name="pref_search_summary">Type of search for launch on start page</string>
+    <string-array name="pref_search_entries">
+        <item>simple search</item>
+        <item>advanced search</item>
+    </string-array>
+    <string-array name="pref_search_entries_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- errors -->
+    <string name="error_empty">Filed is empty</string>
+    <string name="error_empty_optional">complete geo position</string>
+    <string name="error_empty_optional_event">complete event description</string>
+    <string name="error_record">Not find this record</string>
+    <string name="error_duplicate">2 links on 1 event</string>
+    <string name="error_complete">Not chose 2 events</string>
+    <string name="error_exists">already exists</string>
+    <string name="error_date_format">not correct data</string>
+    <string name="error_date_position">start date later than end date</string>
+    <string name="error_not_category">not created this category</string>
+    <string name="error_not_author">not created this author</string>
+
+    <!-- add/update dialog -->
+    <string name="close_desc">Close</string>
+    <string name="color_desc">Color</string>
+    <string name="dialog_title_add">Add</string>
+    <string name="dialog_title_update">Update</string>
+
+    <string name="dialog_event_sp_body">Event description</string>
+    <string name="dialog_event_sp_date">Date</string>
+    <string name="dialog_event_sp_geo">Geographical position</string>
+    <string name="dialog_event_sp_author">Author of event</string>
+    <string name="dialog_event_sp_category">Category of event</string>
+    <string name="dialog_event_sp_links">Links</string>
+
+    <string name="dialog_event_title">title</string>
+    <string name="dialog_event_body">event</string>
+    <string name="dialog_event_start">start date of event</string>
+    <string name="dialog_event_end">end date of event(optional)</string>
+    <string name="dialog_links">links separated by commas</string>
+    <string name="dialog_category">category name</string>
+    <string name="dialog_person_name">person name</string>
+    <string name="dialog_person_birth">date of birth</string>
+    <string name="dialog_person_death">date of death(optional)</string>
+    <string name="dialog_author_name">author name</string>
+    <string name="dialog_association_connection">association description</string>
+    <string name="dialog_association_author">author of association</string>
+    <string name="dialog_association_events">two events in association</string>
+    <string name="dialog_timeline_title">title</string>
+    <string name="dialog_timeline_about">about timeline</string>
+    <string name="dialog_timeline_color">timeline color</string>
+    <string name="save">Save</string><!--нету кнопки сохранить в ресурса андроид-->
+
+    <string-array name="dialog_association_privacy_list">
+        <item>Personal</item>
+        <item>Group</item>
+        <item>Public</item>
+    </string-array>
+
+    <string-array name="dialog_content">
+        <item>Event</item>
+        <item>Links</item>
+        <item>Association</item>
+        <item>Person</item>
+        <item>Author</item>
+        <item>Category</item>
+        <item>Geo</item>
+        <item>Timeline</item>
+    </string-array>
+
+    <!-- use in menu_large_screen.xml -->
+    <string name="action_window_type">Split view type</string>
+    <string name="action_right_menu">Time line\'s panel</string>
+
+    <string name="action_horizontal">Split horizontally</string>
+    <string name="action_vertical">Split vertically</string>
+
+    <!-- other used strings -->
+    <string name="app_name">Timeline</string>
+    <string name="title">Title</string>
+    <string name="search">Search</string>
+    <string name="right_menu">Timeline\'s list</string>
+    <string name="help_title">How use this app.\n This page not completed(full) yet</string>
+    <string name="help_button">Start use</string>
+    <string name="s_serach_button">Advanced search</string>
+    <string name="s_serach_input">Enter something</string>
+    <string name="s_search_settings_comment">You can select advansed search as default in settings</string>
+    <string name="s_search_not_find">Can\'t find category</string>
+    <string name="s_search_enmpty_text">Empty search requset</string>
+    <string name="a_search_category">by Category</string>
+    <string name="a_search_timeline">by Timeline or Events</string>
+    <string name="a_search_persons">for Historical figures, persons</string>
+    <string name="a_search_author">on Authors</string>
+    <string name="a_search_location">by Geographic location</string>
+    <string name="a_search_streets">through the streets</string>
+    <string name="a_search_city">by city</string>
+    <string name="a_search_country">by country</string>
+    <string name="a_search_nationality">by nationality</string>
+    <string name="a_search_continent">by continent</string>
+    <string name="a_search_switch_button">OR/AND</string>
+    <string name="a_search_button_or">Or</string>
+    <string name="a_search_button_and">And</string>
+    <string name="a_search_time_text">by Time interval</string>
+    <string name="a_search_start_date">start date</string>
+    <string name="a_search_end_date">end date</string>
+    <string name="about">This research project, you can help us, please leave your feedback about the application, in  </string>
+    <string name="about_or">or by e-mail</string>
+    <string name="about_android_market">Android market</string>
+    <string name="e_mail">Timeline.FeedBack@gmail.com</string>
+    <string name="event_mark_edit">Edit</string>
+    <string name="event_mark_links">Links</string>
+    <string name="event_mark_date">Date</string>
+    <string name="event_mark_start">Start event</string>
+    <string name="event_mark_end">End event</string>
+    <string name="event_mark_geo_geo">GEO Coordinates</string>
+    <string name="event_mark_geo_nationality">Nationality</string>
+    <string name="event_mark_geo_continent">Continent</string>
+    <string name="event_mark_geo_country">Country</string>
+    <string name="event_mark_geo_city">City</string>
+    <string name="event_mark_geo_street">Street</string>
+    <string name="event_mark_geo_home">Home</string>
+    <string name="map_view">Map View</string>
+
+    <string-array name="left_menu_list">
+        <item>Simple Search</item>
+        <item>Advanced Search</item>
+        <item>Open List</item>
+        <item>Delete from list</item>
+        <item>Settings</item>
+        <item>Help</item>
+        <item>About app</item>
+    </string-array>
+    <string-array name="s_search_category">
+        <item>Author</item>
+        <item>Category</item>
+        <item>Mark</item>
+        <item>Person</item>
+    </string-array>
+    <string-array name="view_activity">
+        <item>Line View</item>
+        <item>Grid View</item>
+        <item>Gallery View</item>
+        <item>List View</item>
+        <item>Event View</item>
+        <item>Map View</item>
+    </string-array>
+    <string-array name="add_content">
+        <item>Add Event</item>
+        <item>Add Association</item>
+        <item>Add Person</item>
+        <item>Add Author</item>
+        <item>Add Category</item>
+        <item>Add Geo</item>
+        <item>Add Timeline</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>

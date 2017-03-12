@@ -1,0 +1,38 @@
+Applications Memory Usage (kB):
+Uptime: 409300 Realtime: 409300
+
+** MEMINFO in pid 3232 [com.android.nik.timeline] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7120     7040        0        0    16972    16972     2483
+  Dalvik Heap     2410     2356        0        0     2843     2096      747
+ Dalvik Other      340      340        0        0                           
+        Stack      120      120        0        0                           
+       Cursor        4        4        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     1087      116       96        0                           
+    .apk mmap      310        0      176        0                           
+    .ttf mmap       39        0        4        0                           
+    .dex mmap     2364        0     2360        0                           
+    code mmap     2186        0      756        0                           
+   image mmap     1116      668       16        0                           
+   Other mmap       65        4       28        0                           
+      Unknown       73       72        0        0                           
+        TOTAL    17238    10720     3440        0    19815    19068     3230
+ 
+ Objects
+               Views:       52         ViewRootImpl:        1
+         AppContexts:        3           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:       23        Proxy Binders:       20
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:      647
+  PAGECACHE_OVERFLOW:      436          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      188             51         4/22/8  /data/data/com.android.nik.timeline/databases/Timeline.db

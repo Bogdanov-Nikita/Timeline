@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:paddingLeft="8dp"
+	android:paddingRight="8dp"
+	android:paddingTop="4dp"
+	android:paddingBottom="4dp"
+	android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/GalleryEventTitle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+		<TextView
+			android:id="@+id/GalleryEventDateTime"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"/>
+		<TextView
+			android:id="@+id/GalleryEventBody"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+</LinearLayout>

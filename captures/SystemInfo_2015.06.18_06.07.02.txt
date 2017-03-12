@@ -1,0 +1,422 @@
+AGGREGATED OVER LAST 24 HOURS:
+  * system / 1000 / v21:
+           TOTAL: 100% (58MB-61MB-65MB/52MB-55MB-59MB over 2)
+      Persistent: 100% (58MB-61MB-65MB/52MB-55MB-59MB over 2)
+  * com.android.systemui / u0a12 / v21:
+           TOTAL: 98% (50MB-50MB-50MB/45MB-46MB-46MB over 2)
+      Persistent: 98% (50MB-50MB-50MB/45MB-46MB-46MB over 2)
+          Imp Fg: 0.15%
+         Service: 0.03%
+  * com.android.inputmethod.latin / u0a30 / v21:
+           TOTAL: 98% (11MB-11MB-11MB/8.0MB-8.6MB-9.2MB over 2)
+          Imp Fg: 88% (11MB-11MB-11MB/9.2MB-9.2MB-9.2MB over 1)
+          Imp Bg: 10.0% (11MB-11MB-11MB/8.0MB-8.0MB-8.0MB over 1)
+  * com.android.phone / 1001 / v21:
+           TOTAL: 98% (16MB-16MB-17MB/13MB-14MB-14MB over 2)
+      Persistent: 98% (16MB-16MB-17MB/13MB-14MB-14MB over 2)
+          Imp Fg: 0.03%
+  * com.android.server.telecom / 1001 / v21:
+           TOTAL: 98% (5.7MB-5.7MB-5.7MB/4.4MB-4.5MB-4.5MB over 2)
+      Persistent: 98% (5.7MB-5.7MB-5.7MB/4.4MB-4.5MB-4.5MB over 2)
+  * com.android.nik.timeline / u0a53 / v1:
+           TOTAL: 89% (12MB-16MB-18MB/9.4MB-13MB-14MB over 12)
+             Top: 89% (12MB-16MB-18MB/9.4MB-13MB-14MB over 12)
+        (Cached): 0.62%
+  * com.android.launcher / u0a7 / v21:
+           TOTAL: 9.2% (25MB-32MB-39MB/21MB-27MB-33MB over 2)
+             Top: 9.2% (25MB-32MB-39MB/21MB-27MB-33MB over 2)
+        Receiver: 0.01%
+          (Home): 89% (25MB-25MB-25MB/21MB-21MB-21MB over 2)
+  * com.android.music / u0a33 / v21:
+           TOTAL: 4.4% (4.5MB-4.5MB-4.5MB/3.1MB-3.1MB-3.1MB over 1)
+         Service: 4.4% (4.5MB-4.5MB-4.5MB/3.1MB-3.1MB-3.1MB over 1)
+        Receiver: 0.01%
+        (Cached): 93% (4.4MB-4.4MB-4.4MB/3.1MB-3.1MB-3.1MB over 1)
+  * com.android.providers.calendar / u0a1 / v21:
+           TOTAL: 2.6%
+         Service: 2.3%
+        Receiver: 0.24%
+        (Cached): 95% (6.5MB-6.5MB-6.5MB/5.1MB-5.1MB-5.1MB over 1)
+  * android.process.media / u0a5 / v700:
+           TOTAL: 2.3%
+          Imp Fg: 0.00%
+         Service: 1.2%
+        Receiver: 1.1%
+        (Cached): 96% (8.9MB-8.9MB-8.9MB/7.0MB-7.0MB-7.0MB over 1)
+  * com.android.calendar / u0a17 / v21:
+           TOTAL: 2.2%
+         Service: 2.2%
+        Receiver: 0.03%
+        (Cached): 95% (6.7MB-6.7MB-6.7MB/5.1MB-5.1MB-5.1MB over 1)
+  * android.process.acore / u0a2 / v21:
+           TOTAL: 1.8%
+          Imp Fg: 1.0%
+          Imp Bg: 0.58%
+         Service: 0.01%
+        Receiver: 0.19%
+        (Cached): 97% (8.1MB-8.2MB-8.2MB/6.6MB-6.6MB-6.6MB over 3)
+  * com.android.defcontainer / u0a3 / v21:
+           TOTAL: 1.5%
+          Imp Fg: 1.5%
+         Service: 0.00%
+        (Cached): 89% (3.8MB-3.9MB-4.1MB/2.7MB-2.8MB-2.9MB over 2)
+  * com.android.settings / 1000 / v21:
+           TOTAL: 0.73%
+             Top: 0.73%
+        Receiver: 0.00%
+        (Cached): 75% (5.1MB-5.1MB-5.1MB/3.8MB-3.8MB-3.8MB over 1)
+  * com.android.printspooler / u0a39 / v1:
+           TOTAL: 0.54%
+          Imp Fg: 0.39%
+         Service: 0.15%
+        (Cached): 7.2% (4.0MB-4.0MB-4.0MB/2.8MB-2.8MB-2.8MB over 1)
+  * com.android.sdksetup / u0a42 / v21:
+           TOTAL: 0.19%
+             Top: 0.19%
+  * com.android.exchange / u0a27 / v500065:
+           TOTAL: 0.13%
+          Imp Fg: 0.03%
+         Service: 0.10%
+        (Cached): 97% (5.4MB-5.4MB-5.4MB/4.2MB-4.2MB-4.2MB over 1)
+  * com.android.email / u0a25 / v7008110:
+           TOTAL: 0.10%
+          Imp Fg: 0.00%
+         Service: 0.10%
+        Receiver: 0.00%
+        (Cached): 97% (9.5MB-9.5MB-9.5MB/7.6MB-7.6MB-7.6MB over 1)
+  * com.android.deskclock / u0a21 / v302:
+           TOTAL: 0.09%
+        Receiver: 0.09%
+        (Cached): 97% (5.3MB-5.3MB-5.3MB/3.7MB-3.7MB-3.7MB over 1)
+  * com.android.externalstorage / u0a6 / v21:
+           TOTAL: 0.09%
+        Receiver: 0.09%
+        (Cached): 97% (3.5MB-3.5MB-3.5MB/2.4MB-2.4MB-2.4MB over 1)
+  * com.android.managedprovisioning / u0a8 / v21:
+           TOTAL: 0.08%
+        Receiver: 0.08%
+        (Cached): 97% (3.9MB-3.9MB-3.9MB/2.9MB-2.9MB-2.9MB over 1)
+  * com.android.mms / u0a9 / v21:
+           TOTAL: 0.07%
+         Service: 0.05%
+        Receiver: 0.02%
+        (Cached): 96% (6.9MB-6.9MB-6.9MB/5.1MB-5.1MB-5.1MB over 1)
+  * com.android.keychain / 1000 / v21:
+           TOTAL: 0.05%
+          Imp Fg: 0.00%
+         Service: 0.04%
+        Receiver: 0.00%
+        (Cached): 97% (3.5MB-3.9MB-4.2MB/2.4MB-2.7MB-3.0MB over 2)
+  * com.android.dialer / u0a4 / v21:
+           TOTAL: 0.04%
+         Service: 0.02%
+        Receiver: 0.02%
+        (Cached): 97% (4.6MB-4.6MB-4.6MB/3.3MB-3.3MB-3.3MB over 1)
+  * com.svox.pico / u0a38 / v1:
+           TOTAL: 0.00%
+        Receiver: 0.00%
+        (Cached): 90% (3.2MB-3.2MB-3.2MB/2.3MB-2.3MB-2.3MB over 1)
+
+Run time Stats:
+  SOn /Norm: +22m58s115ms
+      TOTAL: +22m58s115ms
+
+Memory usage:
+  Kernel : 37MB (8 samples)
+  Native : 34MB (8 samples)
+  Persist: 132MB (8 samples)
+  Top    : 17MB (15 samples)
+  ImpFg  : 10MB (16 samples)
+  ImpBg  : 1.1MB (4 samples)
+  Service: 657KB (30 samples)
+  Receivr: 152KB (37 samples)
+  Home   : 22MB (2 samples)
+  CchEmty: 85MB (33 samples)
+  Cached : 413MB (8 samples)
+  Free   : 255MB (8 samples)
+  TOTAL  : 0.98GB
+
+          Start time: 2015-06-18 02:42:27
+  Total elapsed time: +23m11s722ms (partial) libart.so
+
+AGGREGATED OVER LAST 3 HOURS:
+  * system / 1000 / v21:
+           TOTAL: 100% (58MB-61MB-65MB/52MB-55MB-59MB over 2)
+      Persistent: 100% (58MB-61MB-65MB/52MB-55MB-59MB over 2)
+  * com.android.systemui / u0a12 / v21:
+           TOTAL: 98% (50MB-50MB-50MB/45MB-46MB-46MB over 2)
+      Persistent: 98% (50MB-50MB-50MB/45MB-46MB-46MB over 2)
+          Imp Fg: 0.15%
+         Service: 0.03%
+  * com.android.inputmethod.latin / u0a30 / v21:
+           TOTAL: 98% (11MB-11MB-11MB/8.0MB-8.6MB-9.2MB over 2)
+          Imp Fg: 88% (11MB-11MB-11MB/9.2MB-9.2MB-9.2MB over 1)
+          Imp Bg: 10.0% (11MB-11MB-11MB/8.0MB-8.0MB-8.0MB over 1)
+  * com.android.phone / 1001 / v21:
+           TOTAL: 98% (16MB-16MB-17MB/13MB-14MB-14MB over 2)
+      Persistent: 98% (16MB-16MB-17MB/13MB-14MB-14MB over 2)
+          Imp Fg: 0.03%
+  * com.android.server.telecom / 1001 / v21:
+           TOTAL: 98% (5.7MB-5.7MB-5.7MB/4.4MB-4.5MB-4.5MB over 2)
+      Persistent: 98% (5.7MB-5.7MB-5.7MB/4.4MB-4.5MB-4.5MB over 2)
+  * com.android.nik.timeline / u0a53 / v1:
+           TOTAL: 89% (12MB-16MB-18MB/9.4MB-13MB-14MB over 12)
+             Top: 89% (12MB-16MB-18MB/9.4MB-13MB-14MB over 12)
+        (Cached): 0.62%
+  * com.android.launcher / u0a7 / v21:
+           TOTAL: 9.2% (25MB-32MB-39MB/21MB-27MB-33MB over 2)
+             Top: 9.2% (25MB-32MB-39MB/21MB-27MB-33MB over 2)
+        Receiver: 0.01%
+          (Home): 89% (25MB-25MB-25MB/21MB-21MB-21MB over 2)
+  * com.android.music / u0a33 / v21:
+           TOTAL: 4.4% (4.5MB-4.5MB-4.5MB/3.1MB-3.1MB-3.1MB over 1)
+         Service: 4.4% (4.5MB-4.5MB-4.5MB/3.1MB-3.1MB-3.1MB over 1)
+        Receiver: 0.01%
+        (Cached): 93% (4.4MB-4.4MB-4.4MB/3.1MB-3.1MB-3.1MB over 1)
+  * com.android.providers.calendar / u0a1 / v21:
+           TOTAL: 2.6%
+         Service: 2.3%
+        Receiver: 0.24%
+        (Cached): 95% (6.5MB-6.5MB-6.5MB/5.1MB-5.1MB-5.1MB over 1)
+  * android.process.media / u0a5 / v700:
+           TOTAL: 2.3%
+          Imp Fg: 0.00%
+         Service: 1.2%
+        Receiver: 1.1%
+        (Cached): 96% (8.9MB-8.9MB-8.9MB/7.0MB-7.0MB-7.0MB over 1)
+  * com.android.calendar / u0a17 / v21:
+           TOTAL: 2.2%
+         Service: 2.2%
+        Receiver: 0.03%
+        (Cached): 95% (6.7MB-6.7MB-6.7MB/5.1MB-5.1MB-5.1MB over 1)
+  * android.process.acore / u0a2 / v21:
+           TOTAL: 1.8%
+          Imp Fg: 1.0%
+          Imp Bg: 0.58%
+         Service: 0.01%
+        Receiver: 0.19%
+        (Cached): 97% (8.1MB-8.2MB-8.2MB/6.6MB-6.6MB-6.6MB over 3)
+  * com.android.defcontainer / u0a3 / v21:
+           TOTAL: 1.5%
+          Imp Fg: 1.5%
+         Service: 0.00%
+        (Cached): 89% (3.8MB-3.9MB-4.1MB/2.7MB-2.8MB-2.9MB over 2)
+  * com.android.settings / 1000 / v21:
+           TOTAL: 0.73%
+             Top: 0.73%
+        Receiver: 0.00%
+        (Cached): 75% (5.1MB-5.1MB-5.1MB/3.8MB-3.8MB-3.8MB over 1)
+  * com.android.printspooler / u0a39 / v1:
+           TOTAL: 0.54%
+          Imp Fg: 0.39%
+         Service: 0.15%
+        (Cached): 7.2% (4.0MB-4.0MB-4.0MB/2.8MB-2.8MB-2.8MB over 1)
+  * com.android.sdksetup / u0a42 / v21:
+           TOTAL: 0.19%
+             Top: 0.19%
+  * com.android.exchange / u0a27 / v500065:
+           TOTAL: 0.13%
+          Imp Fg: 0.03%
+         Service: 0.10%
+        (Cached): 97% (5.4MB-5.4MB-5.4MB/4.2MB-4.2MB-4.2MB over 1)
+  * com.android.email / u0a25 / v7008110:
+           TOTAL: 0.10%
+          Imp Fg: 0.00%
+         Service: 0.10%
+        Receiver: 0.00%
+        (Cached): 97% (9.5MB-9.5MB-9.5MB/7.6MB-7.6MB-7.6MB over 1)
+  * com.android.deskclock / u0a21 / v302:
+           TOTAL: 0.09%
+        Receiver: 0.09%
+        (Cached): 97% (5.3MB-5.3MB-5.3MB/3.7MB-3.7MB-3.7MB over 1)
+  * com.android.externalstorage / u0a6 / v21:
+           TOTAL: 0.09%
+        Receiver: 0.09%
+        (Cached): 97% (3.5MB-3.5MB-3.5MB/2.4MB-2.4MB-2.4MB over 1)
+  * com.android.managedprovisioning / u0a8 / v21:
+           TOTAL: 0.08%
+        Receiver: 0.08%
+        (Cached): 97% (3.9MB-3.9MB-3.9MB/2.9MB-2.9MB-2.9MB over 1)
+  * com.android.mms / u0a9 / v21:
+           TOTAL: 0.07%
+         Service: 0.05%
+        Receiver: 0.02%
+        (Cached): 96% (6.9MB-6.9MB-6.9MB/5.1MB-5.1MB-5.1MB over 1)
+  * com.android.keychain / 1000 / v21:
+           TOTAL: 0.05%
+          Imp Fg: 0.00%
+         Service: 0.04%
+        Receiver: 0.00%
+        (Cached): 97% (3.5MB-3.9MB-4.2MB/2.4MB-2.7MB-3.0MB over 2)
+  * com.android.dialer / u0a4 / v21:
+           TOTAL: 0.04%
+         Service: 0.02%
+        Receiver: 0.02%
+        (Cached): 97% (4.6MB-4.6MB-4.6MB/3.3MB-3.3MB-3.3MB over 1)
+  * com.svox.pico / u0a38 / v1:
+           TOTAL: 0.00%
+        Receiver: 0.00%
+        (Cached): 90% (3.2MB-3.2MB-3.2MB/2.3MB-2.3MB-2.3MB over 1)
+
+Run time Stats:
+  SOn /Norm: +22m58s126ms
+      TOTAL: +22m58s126ms
+
+Memory usage:
+  Kernel : 37MB (8 samples)
+  Native : 34MB (8 samples)
+  Persist: 132MB (8 samples)
+  Top    : 17MB (15 samples)
+  ImpFg  : 10MB (16 samples)
+  ImpBg  : 1.1MB (4 samples)
+  Service: 657KB (30 samples)
+  Receivr: 152KB (37 samples)
+  Home   : 22MB (2 samples)
+  CchEmty: 85MB (33 samples)
+  Cached : 413MB (8 samples)
+  Free   : 255MB (8 samples)
+  TOTAL  : 0.98GB
+
+          Start time: 2015-06-18 02:42:27
+  Total elapsed time: +23m11s733ms (partial) libart.so
+
+CURRENT STATS:
+  * system / 1000 / v21:
+           TOTAL: 100% (58MB-61MB-65MB/52MB-55MB-59MB over 2)
+      Persistent: 100% (58MB-61MB-65MB/52MB-55MB-59MB over 2)
+  * com.android.systemui / u0a12 / v21:
+           TOTAL: 98% (50MB-50MB-50MB/45MB-46MB-46MB over 2)
+      Persistent: 98% (50MB-50MB-50MB/45MB-46MB-46MB over 2)
+          Imp Fg: 0.15%
+         Service: 0.03%
+  * com.android.inputmethod.latin / u0a30 / v21:
+           TOTAL: 98% (11MB-11MB-11MB/8.0MB-8.6MB-9.2MB over 2)
+          Imp Fg: 88% (11MB-11MB-11MB/9.2MB-9.2MB-9.2MB over 1)
+          Imp Bg: 10.0% (11MB-11MB-11MB/8.0MB-8.0MB-8.0MB over 1)
+  * com.android.phone / 1001 / v21:
+           TOTAL: 98% (16MB-16MB-17MB/13MB-14MB-14MB over 2)
+      Persistent: 98% (16MB-16MB-17MB/13MB-14MB-14MB over 2)
+          Imp Fg: 0.03%
+  * com.android.server.telecom / 1001 / v21:
+           TOTAL: 98% (5.7MB-5.7MB-5.7MB/4.4MB-4.5MB-4.5MB over 2)
+      Persistent: 98% (5.7MB-5.7MB-5.7MB/4.4MB-4.5MB-4.5MB over 2)
+  * com.android.nik.timeline / u0a53 / v1:
+           TOTAL: 89% (12MB-16MB-18MB/9.4MB-13MB-14MB over 12)
+             Top: 89% (12MB-16MB-18MB/9.4MB-13MB-14MB over 12)
+        (Cached): 0.62%
+  * com.android.launcher / u0a7 / v21:
+           TOTAL: 9.2% (25MB-32MB-39MB/21MB-27MB-33MB over 2)
+             Top: 9.2% (25MB-32MB-39MB/21MB-27MB-33MB over 2)
+        Receiver: 0.01%
+          (Home): 89% (25MB-25MB-25MB/21MB-21MB-21MB over 2)
+  * com.android.music / u0a33 / v21:
+           TOTAL: 4.4% (4.5MB-4.5MB-4.5MB/3.1MB-3.1MB-3.1MB over 1)
+         Service: 4.4% (4.5MB-4.5MB-4.5MB/3.1MB-3.1MB-3.1MB over 1)
+        Receiver: 0.01%
+        (Cached): 93% (4.4MB-4.4MB-4.4MB/3.1MB-3.1MB-3.1MB over 1)
+  * com.android.providers.calendar / u0a1 / v21:
+           TOTAL: 2.6%
+         Service: 2.3%
+        Receiver: 0.24%
+        (Cached): 95% (6.5MB-6.5MB-6.5MB/5.1MB-5.1MB-5.1MB over 1)
+  * android.process.media / u0a5 / v700:
+           TOTAL: 2.3%
+          Imp Fg: 0.00%
+         Service: 1.2%
+        Receiver: 1.1%
+        (Cached): 96% (8.9MB-8.9MB-8.9MB/7.0MB-7.0MB-7.0MB over 1)
+  * com.android.calendar / u0a17 / v21:
+           TOTAL: 2.2%
+         Service: 2.2%
+        Receiver: 0.03%
+        (Cached): 95% (6.7MB-6.7MB-6.7MB/5.1MB-5.1MB-5.1MB over 1)
+  * android.process.acore / u0a2 / v21:
+           TOTAL: 1.8%
+          Imp Fg: 1.0%
+          Imp Bg: 0.58%
+         Service: 0.01%
+        Receiver: 0.19%
+        (Cached): 97% (8.1MB-8.2MB-8.2MB/6.6MB-6.6MB-6.6MB over 3)
+  * com.android.defcontainer / u0a3 / v21:
+           TOTAL: 1.5%
+          Imp Fg: 1.5%
+         Service: 0.00%
+        (Cached): 89% (3.8MB-3.9MB-4.1MB/2.7MB-2.8MB-2.9MB over 2)
+  * com.android.settings / 1000 / v21:
+           TOTAL: 0.73%
+             Top: 0.73%
+        Receiver: 0.00%
+        (Cached): 75% (5.1MB-5.1MB-5.1MB/3.8MB-3.8MB-3.8MB over 1)
+  * com.android.printspooler / u0a39 / v1:
+           TOTAL: 0.54%
+          Imp Fg: 0.39%
+         Service: 0.15%
+        (Cached): 7.2% (4.0MB-4.0MB-4.0MB/2.8MB-2.8MB-2.8MB over 1)
+  * com.android.sdksetup / u0a42 / v21:
+           TOTAL: 0.19%
+             Top: 0.19%
+  * com.android.exchange / u0a27 / v500065:
+           TOTAL: 0.13%
+          Imp Fg: 0.03%
+         Service: 0.10%
+        (Cached): 97% (5.4MB-5.4MB-5.4MB/4.2MB-4.2MB-4.2MB over 1)
+  * com.android.email / u0a25 / v7008110:
+           TOTAL: 0.10%
+          Imp Fg: 0.00%
+         Service: 0.10%
+        Receiver: 0.00%
+        (Cached): 97% (9.5MB-9.5MB-9.5MB/7.6MB-7.6MB-7.6MB over 1)
+  * com.android.deskclock / u0a21 / v302:
+           TOTAL: 0.09%
+        Receiver: 0.09%
+        (Cached): 97% (5.3MB-5.3MB-5.3MB/3.7MB-3.7MB-3.7MB over 1)
+  * com.android.externalstorage / u0a6 / v21:
+           TOTAL: 0.09%
+        Receiver: 0.09%
+        (Cached): 97% (3.5MB-3.5MB-3.5MB/2.4MB-2.4MB-2.4MB over 1)
+  * com.android.managedprovisioning / u0a8 / v21:
+           TOTAL: 0.08%
+        Receiver: 0.08%
+        (Cached): 97% (3.9MB-3.9MB-3.9MB/2.9MB-2.9MB-2.9MB over 1)
+  * com.android.mms / u0a9 / v21:
+           TOTAL: 0.07%
+         Service: 0.05%
+        Receiver: 0.02%
+        (Cached): 96% (6.9MB-6.9MB-6.9MB/5.1MB-5.1MB-5.1MB over 1)
+  * com.android.keychain / 1000 / v21:
+           TOTAL: 0.05%
+          Imp Fg: 0.00%
+         Service: 0.04%
+        Receiver: 0.00%
+        (Cached): 97% (3.5MB-3.9MB-4.2MB/2.4MB-2.7MB-3.0MB over 2)
+  * com.android.dialer / u0a4 / v21:
+           TOTAL: 0.04%
+         Service: 0.02%
+        Receiver: 0.02%
+        (Cached): 97% (4.6MB-4.6MB-4.6MB/3.3MB-3.3MB-3.3MB over 1)
+  * com.svox.pico / u0a38 / v1:
+           TOTAL: 0.00%
+        Receiver: 0.00%
+        (Cached): 90% (3.2MB-3.2MB-3.2MB/2.3MB-2.3MB-2.3MB over 1)
+
+Run time Stats:
+  SOn /Norm: +22m58s115ms (running)
+      TOTAL: +22m58s115ms
+
+Memory usage:
+  Kernel : 37MB (8 samples)
+  Native : 34MB (8 samples)
+  Persist: 132MB (8 samples)
+  Top    : 17MB (15 samples)
+  ImpFg  : 10MB (16 samples)
+  ImpBg  : 1.1MB (4 samples)
+  Service: 657KB (30 samples)
+  Receivr: 152KB (37 samples)
+  Home   : 22MB (2 samples)
+  CchEmty: 85MB (33 samples)
+  Cached : 413MB (8 samples)
+  Free   : 255MB (8 samples)
+  TOTAL  : 0.98GB
+
+          Start time: 2015-06-18 02:42:27
+  Total elapsed time: +23m11s762ms (partial) libart.so

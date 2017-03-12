@@ -1,0 +1,311 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".com.android.nik.timeline.DialogFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/min_event_layout_height"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <EditText
+            android:id="@+id/EditTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dialog_event_title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:id="@+id/DateTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_event_sp_date"
+            android:layout_below="@+id/EditTitle"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/EditTitle"
+            android:layout_alignEnd="@+id/EditTitle"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/EditStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="datetime"
+            android:ems="10"
+            android:hint="@string/dialog_event_start"
+            android:layout_below="@+id/DateTitleText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/EditEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="datetime"
+            android:ems="10"
+            android:hint="@string/dialog_event_end"
+            android:layout_below="@+id/EditStartDate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:id="@+id/EventTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_event_sp_body"
+            android:layout_below="@+id/EditEndDate"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/EditEndDate"
+            android:layout_alignEnd="@+id/EditEndDate"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/EditBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dialog_event_body"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/EventTitleText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:id="@+id/CategoryTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_event_sp_category"
+            android:layout_below="@+id/EditBody"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/EditBody"
+            android:layout_alignEnd="@+id/EditBody"
+            android:layout_marginTop="16dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/CategoryCompleteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dialog_category"
+            android:layout_below="@+id/CategoryTitleText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:id="@+id/GeoTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_event_sp_geo"
+            android:layout_below="@+id/CategoryCompleteText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/CategoryCompleteText"
+            android:layout_alignEnd="@+id/CategoryCompleteText"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/EditCoordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_mark_geo_geo"
+            android:layout_below="@+id/GeoTitleText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/GeoTitleText"
+            android:layout_alignEnd="@+id/GeoTitleText"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/NationalityCompleteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_mark_geo_nationality"
+            android:layout_below="@+id/EditCoordinates"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/EditCoordinates"
+            android:layout_alignEnd="@+id/EditCoordinates" />
+
+        <AutoCompleteTextView
+            android:id="@+id/ContinentCompleteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_mark_geo_continent"
+            android:layout_below="@+id/NationalityCompleteText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/NationalityCompleteText"
+            android:layout_alignEnd="@+id/NationalityCompleteText" />
+
+        <AutoCompleteTextView
+            android:id="@+id/CountryCompleteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_mark_geo_country"
+            android:layout_below="@+id/ContinentCompleteText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/ContinentCompleteText"
+            android:layout_alignEnd="@+id/ContinentCompleteText" />
+
+        <AutoCompleteTextView
+            android:id="@+id/CityCompleteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_mark_geo_city"
+            android:layout_below="@+id/CountryCompleteText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/CountryCompleteText"
+            android:layout_alignEnd="@+id/CountryCompleteText" />
+
+        <AutoCompleteTextView
+            android:id="@+id/StreetCompleteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_mark_geo_street"
+            android:layout_below="@+id/CityCompleteText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/CityCompleteText"
+            android:layout_alignEnd="@+id/CityCompleteText" />
+
+        <EditText
+            android:id="@+id/EditHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/event_mark_geo_home"
+            android:layout_below="@+id/StreetCompleteText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/StreetCompleteText"
+            android:layout_alignEnd="@+id/StreetCompleteText" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:id="@+id/AuthorTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_event_sp_author"
+            android:layout_below="@+id/EditHome"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/EditHome"
+            android:layout_alignEnd="@+id/EditHome"
+            android:layout_marginTop="16dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/AuthorCompleteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dialog_author_name"
+            android:layout_below="@+id/AuthorTitleText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:id="@+id/LinksTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_event_sp_links"
+            android:layout_below="@+id/AuthorCompleteText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/AuthorCompleteText"
+            android:layout_alignEnd="@+id/AuthorCompleteText"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/EditLinks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dialog_links"
+            android:layout_below="@+id/LinksTitleText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:inputType="textMultiLine" />
+
+        <Spinner
+            android:id="@+id/privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/EditLinks"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:spinnerMode="dropdown" />
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/SaveButton"/>
+
+        <Button
+            android:id="@+id/SaveButton"
+            android:text="@string/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/space"
+            android:layout_toRightOf="@id/space"
+            android:layout_alignTop="@+id/CancelButton"
+            android:layout_alignRight="@id/EditLinks"
+            android:layout_alignEnd="@id/EditLinks" />
+
+
+        <Button
+            android:id="@+id/CancelButton"
+            android:text="@android:string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/space"
+            android:layout_toStartOf="@id/space"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</ScrollView>

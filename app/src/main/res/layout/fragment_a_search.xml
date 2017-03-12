@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AdvancedSearchFragment">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="780dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+    <TextView
+        android:id="@+id/SearchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:text="@string/search"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/CategoryAutoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/SearchText"
+        android:layout_toLeftOf="@+id/CategoryAndOrButton"
+        android:hint="@string/a_search_category" >
+
+        <requestFocus />
+    </MultiAutoCompleteTextView>
+
+    <ToggleButton
+        android:id="@+id/CategoryAndOrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/CategoryAutoComplete"
+        android:layout_alignParentRight="true"
+        android:text="@string/a_search_switch_button"
+        android:textOff="@string/a_search_button_or"
+        android:textOn="@string/a_search_button_and" />
+
+    <ToggleButton
+        android:id="@+id/TimelineAndOrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/CategoryAndOrButton"
+        android:text="@string/a_search_switch_button" 
+        android:textOff="@string/a_search_button_or"
+        android:textOn="@string/a_search_button_and" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/TimelineAutoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TimelineAndOrButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/CategoryAutoComplete"
+        android:hint="@string/a_search_timeline" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/PersonsAutoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/PersonsAndOrButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/TimelineAutoComplete"
+        android:layout_below="@+id/TimelineAutoComplete"
+        android:hint="@string/a_search_persons" />
+
+    <ToggleButton
+        android:id="@+id/AuthorsAndOrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/PersonsAutoComplete"
+        android:text="@string/a_search_switch_button" 
+        android:textOff="@string/a_search_button_or"
+        android:textOn="@string/a_search_button_and" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/AuthorsAutoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/AuthorsAndOrButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/PersonsAutoComplete"
+        android:hint="@string/a_search_author" />
+
+    <ToggleButton
+        android:id="@+id/StreetsAndOrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/StreetsAutoComplete"
+        android:layout_alignParentRight="true"
+        android:text="@string/a_search_switch_button" 
+        android:textOff="@string/a_search_button_or"
+        android:textOn="@string/a_search_button_and" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/StreetsAutoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/AuthorsAutoComplete"
+        android:layout_below="@+id/GeoLocationText"
+        android:hint="@string/a_search_streets" />
+
+    <ToggleButton
+        android:id="@+id/CityAndOrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/StreetsAndOrButton"
+        android:layout_toRightOf="@+id/StreetsAutoComplete"
+        android:text="@string/a_search_switch_button" 
+        android:textOff="@string/a_search_button_or"
+        android:textOn="@string/a_search_button_and" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/CityAutoCompleteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/CityAndOrButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/StreetsAutoComplete"
+        android:hint="@string/a_search_city" />
+
+    <ToggleButton
+        android:id="@+id/CountryAndOrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/CityAndOrButton"
+        android:text="@string/a_search_switch_button" 
+        android:textOff="@string/a_search_button_or"
+        android:textOn="@string/a_search_button_and" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/CountryAutoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/CountryAndOrButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/CityAutoCompleteText"
+        android:hint="@string/a_search_country" />
+
+    <ToggleButton
+        android:id="@+id/NationalityAndOrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/CountryAndOrButton"
+        android:text="@string/a_search_switch_button" 
+        android:textOff="@string/a_search_button_or"
+        android:textOn="@string/a_search_button_and" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/NationalityAutoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/NationalityAndOrButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/CountryAutoComplete"
+        android:hint="@string/a_search_nationality" />
+
+    <ToggleButton
+        android:id="@+id/ContinentAndOrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/NationalityAndOrButton"
+        android:text="@string/a_search_switch_button" 
+        android:textOff="@string/a_search_button_or"
+        android:textOn="@string/a_search_button_and" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/ContinentAutoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ContinentAndOrButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/NationalityAutoComplete"
+        android:hint="@string/a_search_continent" />
+
+    <Button
+        android:id="@+id/ASearchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ContinentAndOrButton"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/search" />
+
+    <EditText
+        android:id="@+id/EditTextEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/ASearchButton"
+        android:layout_below="@+id/EditCoordinates"
+        android:hint="@string/a_search_end_date" />
+
+    <TextView
+        android:id="@+id/TimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/AuthorsAutoComplete"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/a_search_time_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/EditCoordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/EditTextEnd"
+        android:layout_below="@+id/TimeText"
+        android:hint="@string/a_search_start_date" />
+
+    <TextView
+        android:id="@+id/GeoLocationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EditTextEnd"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:text="@string/a_search_location"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ToggleButton
+        android:id="@+id/PersonsAndOrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TimelineAndOrButton"
+        android:text="@string/a_search_switch_button"
+        android:textOff="@string/a_search_button_or"
+        android:textOn="@string/a_search_button_and" />
+
+</RelativeLayout>
+</ScrollView>

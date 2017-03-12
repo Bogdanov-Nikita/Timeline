@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--progress bar-->
+    <string name="loading">загрузка</string>
+    <!--color names-->
+    <string-array name="color_spinner_popup">
+        <item>Белый</item>
+        <item>Красный</item>
+        <item>Пурпурный</item>
+        <item>Фиолетовый</item>
+        <item>Темно Фиолетовый</item>
+        <item>Ультрамарин</item>
+        <item>Синий</item>
+        <item>Светло-Синий</item>
+        <item>Бирюзовый</item>
+        <item>Темно-Зелёный</item>
+        <item>Зелёный</item>
+        <item>Светло-Зелёный</item>
+        <item>Лаймовый</item>
+        <item>Жёлтый</item>
+        <item>Янтарно-Желтый</item>
+        <item>Оранжевый</item>
+        <item>Ярко-Красный</item>
+        <item>Коричневый</item>
+        <item>Серый</item>
+        <item>Серо-Голубой</item>
+    </string-array>
+
+    <!-- settings pref -->
+    <string name="pref_category_sync">Синхронизация</string>
+    <string name="pref_category_gui">Интерфейс</string>
+
+    <string name="pref_sync_title">Синхроизация с Chronozoom</string>
+    <string name="pref_sync_summary">Использование Chronozoom для поиска</string>
+
+    <string name="pref_windows_title">Количество окон</string>
+    <string name="pref_windows_summary">Количество окон на экране</string>
+
+
+    <string name="pref_search_title">Стартовая страница</string>
+    <string name="pref_search_summary">Тип поиска при запуске</string>
+    <string-array name="pref_search_entries">
+        <item>простой поиск</item>
+        <item>расширенный поиск</item>
+    </string-array>
+
+    <!-- errors -->
+    <string name="error_empty">пустая строка</string>
+    <string name="error_empty_optional">заполните геограическое положение</string>
+    <string name="error_empty_optional_event">заполните описание события</string>
+    <string name="error_record">не найдено такой записи</string>
+    <string name="error_duplicate">2 ссылки на одно и тоже событие</string>
+    <string name="error_complete">не выбанно 2 события</string>
+    <string name="error_exists">уже включено</string>
+    <string name="error_date_format">некорректные данные</string>
+    <string name="error_date_position">дата начала события позже даты конца события</string>
+    <string name="error_not_category">такая категория ещё не создана</string>
+    <string name="error_not_author">нету записи о таком авторе</string>
+
+    <!-- add/update dialog -->
+    <string name="close_desc">Закрыть</string>
+    <string name="color_desc">Цвет</string>
+    <string name="dialog_title_add">Добавить</string>
+    <string name="dialog_title_update">Обновить</string>
+
+    <string name="dialog_event_sp_body">Описание события</string>
+    <string name="dialog_event_sp_date">Дата</string>
+    <string name="dialog_event_sp_geo">Географическое положение</string>
+    <string name="dialog_event_sp_author">Автор</string>
+    <string name="dialog_event_sp_category">Категория</string>
+    <string name="dialog_event_sp_links">Ссылки</string>
+
+    <string name="dialog_event_title">заголовок</string>
+    <string name="dialog_event_body">описание</string>
+    <string name="dialog_event_start">начало события</string>
+    <string name="dialog_event_end">конец события(не обязательно)</string>
+    <string name="dialog_links">ссылки разделённые запятой</string>
+    <string name="dialog_category">название категории</string>
+    <string name="dialog_person_name">имя исторической личности</string>
+    <string name="dialog_person_birth">Дата рождения</string>
+    <string name="dialog_person_death">Дата смерти(не обязательно)</string>
+    <string name="dialog_author_name">имя автора</string>
+    <string name="dialog_association_connection">описание ассоциации</string>
+    <string name="dialog_association_author">автор ассоциации событий</string>
+    <string name="dialog_association_events">2 события в ассоциации</string>
+    <string name="dialog_timeline_title">заголовок</string>
+    <string name="dialog_timeline_about">описание хронологичесого ряда</string>
+    <string name="dialog_timeline_color">цвет хронологического ряда</string>
+    <string name="save">Сохранить</string><!--нету кнопки сохранить в ресурса андроид-->
+
+    <string-array name="dialog_association_privacy_list">
+        <item>Личное</item>
+        <item>Групповое</item>
+        <item>Публичное</item>
+    </string-array>
+
+    <string-array name="dialog_content">
+        <item>Событие</item>
+        <item>Ссылки</item>
+        <item>Ассоциация</item>
+        <item>Историческая личность</item>
+        <item>Автор</item>
+        <item>Категория</item>
+        <item>Географиче положение</item>
+        <item>Хронологический ряд</item>
+    </string-array>
+
+    <!-- use in menu_large_screen.xml -->
+    <string name="action_window_type">Разделение представления</string>
+    <string name="action_right_menu">Панель с хронологическими рядами</string>
+
+    <string name="action_horizontal">Разделить горизонтально</string>
+    <string name="action_vertical">Разделить вертикально</string>
+
+    <!-- other used strings -->
+    <string name="title">Заголовок</string>
+    <string name="search">Поиск</string>
+    <string name="right_menu">Список хронологических рядов</string>
+    <string name="help_title">Данный раздел ещё не заполен</string>
+    <string name="help_button">Перейти к поиску</string>
+    <string name="s_serach_button">Расширенный поиск</string>
+    <string name="s_serach_input">Введите что - либо</string>
+    <string name="s_search_settings_comment">Вы можете указать расширенный поиск по умолчанию в настройках</string>
+    <string name="s_search_not_find">Категория не найдена</string>
+    <string name="s_search_enmpty_text">пустой запрос</string>
+    <string name="a_search_category">по категории</string>
+    <string name="a_search_timeline">по хронологическому ряду или заголовкам событий</string>
+    <string name="a_search_persons">по историческим личностям</string>
+    <string name="a_search_author">по авторам</string>
+    <string name="a_search_location">по географическому положению</string>
+    <string name="a_search_streets">по улицам</string>
+    <string name="a_search_city">по городу</string>
+    <string name="a_search_country">по стране</string>
+    <string name="a_search_nationality">по национальности</string>
+    <string name="a_search_continent">по континенту</string>
+    <string name="a_search_switch_button">И/ИЛИ</string>
+    <string name="a_search_button_or">или</string>
+    <string name="a_search_button_and">и</string>
+    <string name="a_search_time_text">по временному интервалу</string>
+    <string name="a_search_start_date">начало</string>
+    <string name="a_search_end_date">конец</string>
+    <string name="about">Это исследовательский проект, вы можете помочь, пожалуйста оставте свой отзыв о приложении, на </string>
+    <string name="about_or">или по e-mail</string>
+    <string name="event_mark_edit">Редактировать</string>
+    <string name="event_mark_links">Ссылки</string>
+    <string name="event_mark_date">Дата</string>
+    <string name="event_mark_start">Начало события</string>
+    <string name="event_mark_end">Конец события</string>
+    <string name="event_mark_geo_geo">Географические координаты</string>
+    <string name="event_mark_geo_nationality">Национальность</string>
+    <string name="event_mark_geo_continent">Континент</string>
+    <string name="event_mark_geo_country">Страна</string>
+    <string name="event_mark_geo_city">Город</string>
+    <string name="event_mark_geo_street">Улица</string>
+    <string name="event_mark_geo_home">Дом</string>
+    <string name="map_view">Карта событий</string>
+
+    <string-array name="left_menu_list">
+        <item>Поиск</item>
+        <item>Расширенный поиск</item>
+        <item>Открыть список</item>
+        <item>Удалить из списка</item>
+        <item>Настройки</item>
+        <item>Справка</item>
+        <item>О программе</item>
+    </string-array>
+    <string-array name="s_search_category">
+        <item>Автор</item>
+        <item>Категория</item>
+        <item>Метка</item>
+        <item>Историческая личность</item>
+    </string-array>
+    <string-array name="view_activity">
+        <item>Список событий</item>
+        <item>Хронлогические ряды</item>
+        <item>Скользящее окно(хронлогический ряд)</item>
+        <item>Скользящее окно(хронология,не завершено)</item>
+        <item>Скользыщее окно(событие)</item>
+        <item>Карта событий(не завершено)</item>
+    </string-array>
+    <string-array name="add_content">
+        <item>Добавить событие</item>
+        <item>Добавить ассоциацию</item>
+        <item>Добавить историческую личность</item>
+        <item>Добавить автора</item>
+        <item>Добавить категорию</item>
+        <item>Добавить географическое положение</item>
+        <item>Добавить хронологеский ряд</item>
+    </string-array>
+
+</resources>

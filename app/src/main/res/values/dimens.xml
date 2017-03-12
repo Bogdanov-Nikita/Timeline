@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="action_bar_button">16dp</dimen>
+    <dimen name="item_list_padding">16dp</dimen>
+    <!-- Dialogs height -->
+    <dimen name="min_association_layout_height">320dp</dimen>
+    <dimen name="min_author_layout_height">140dp</dimen>
+    <dimen name="min_category_layout_height">140dp</dimen>
+    <dimen name="min_event_layout_height">1000dp</dimen>
+    <dimen name="min_event_links_layout_height">140dp</dimen>
+    <dimen name="min_geo_layout_height">400dp</dimen>
+    <dimen name="min_person_layout_height">230dp</dimen>
+    <dimen name="min_timeline_layout_height">250dp</dimen>
+    <dimen name="toolbar_elevation">2dp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+</resources>
